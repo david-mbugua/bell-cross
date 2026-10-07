@@ -1,0 +1,18 @@
+# Next.js build output and packages
+.next/
+node_modules/
+out/
+coverage/
+*.tsbuildinfo
+
+# Local production, environment, and editor artifacts
+.vercel/
+.env*
+!.env.example
+.DS_Store
+
+# Installed Taste guidance is local agent tooling, not website source.
+.agents/
+
+# The original static HTML, CSS, and scripts at the project root remain available
+# as a redesign reference; Next.js deploys the app build and public assets only.
